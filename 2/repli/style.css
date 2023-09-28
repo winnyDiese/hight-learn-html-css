@@ -1,0 +1,33 @@
+
+a, ::befor, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 50px 0;
+    font-size: 40px;
+}
+
+.grille{
+    /* border: 1px solid #333; */
+    width: 80%;
+    height: auto;
+    align-items: center;
+
+    grid-template-columns: repeat(auto-fill, 300px);
+    display: grid;
+    grid-gap: 10px;
+    justify-content: center;
+
+    margin: 30px auto;
+}
+
+.grille-item{
+    width: 300px;
+    height: 200px;
+    background-color: #333;
+}
